@@ -35,7 +35,7 @@ const App: FC = () => {
       <div className="select-container">
         <Select
           defaultValue={query.get('id') || undefined}
-          placeholder="Select email"
+          placeholder="Select user"
           options={users?.data}
           onClick={(option) => console.log(option)}
           onPaginate={(limit) => fetchData(limit)}
