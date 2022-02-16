@@ -13,3 +13,9 @@ export interface User {
   last_name: string;
   avatar: string;
 }
+
+export interface SomeTestInterface {
+  id: number;
+  name: string;
+  label?: string;
+}
